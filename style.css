@@ -184,3 +184,51 @@ html {
   font-size: 20px;
 }
 /* section2 end */
+
+.section3 {
+  background: url(./images/blurGradientBack.png) no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.section3 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3-left {
+  width: 48%;
+}
+.section3-left h2 {
+  line-height: 58px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.section3-left p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0;
+}
+.btn {
+  display: inline-block;
+  background-color: black;
+  border: 1px solid;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.section3-right {
+  width: 49%;
+}
+.section3-right img {
+  width: 95%;
+}
+/* section3 end */
