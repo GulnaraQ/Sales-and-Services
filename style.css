@@ -23,8 +23,14 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 10px;
+  position: fixed;
+  width: 87%;
+  top: 0;
+  background-color: white;
+  border-radius: 5px;
 }
+
 .links a {
   display: inline-block;
   font-size: 16px;
@@ -47,8 +53,9 @@ html {
 /* navbar end */
 
 .header-info {
+  margin-top: 50px;
   width: 70%;
-  margin: auto;
+  margin-inline: auto;
   text-align: center;
   padding: 50px 0;
 }
@@ -341,6 +348,11 @@ html {
   border: 2px solid #6199ed42;
   border-radius: 24px;
   padding: 40px;
+  transition: 0.7s;
+}
+.section6-box:hover {
+  transform: scale(1.1);
+  background-color: #6199ed42;
 }
 .section6-description {
   font-weight: 600;
@@ -359,27 +371,105 @@ html {
 }
 /* section6 end */
 
-.section7 {
+footer {
   background: url(./images/BlurGradient3.png) no-repeat center;
   background-size: cover;
-  padding: 70px 0;
 }
-.section7-info {
+.footer-info {
+  padding: 70px 0;
   width: 60%;
   margin: auto;
   text-align: center;
 }
-.section7-info h2 {
+.footer-info h2 {
   font-size: 56px;
   line-height: 62px;
 }
-.section7-info p {
-  margin-top: 30px;
+.footer-info p {
+  margin: 30px 0;
   font-size: 16px;
 }
-/*section7 end */
-
+.footer-info a {
+  display: inline-block;
+  border: 1px solid #1d2130;
+  background-color: #1d2130;
+  color: white;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: 0.7s;
+}
+.footer-info a:hover {
+  background-color: white;
+  color: #1d2130;
+}
 .footer {
   background-color: #1d2130;
   color: white;
+  padding: 50px 0;
 }
+.footer-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-boxes .box {
+  width: 23%;
+}
+.footer-boxes > .box li:nth-child(1) a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  opacity: 1;
+}
+.footer-boxes .box a {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 60%;
+}
+.footer .box ul {
+  list-style-type: none;
+}
+.footer-form {
+  width: 27%;
+}
+.footer-form form {
+  margin-top: 30px;
+  width: 100%;
+}
+.footer-form .email {
+  border: none;
+  padding: 15px;
+  background-color: #2b2e3c;
+  border-radius: 8px;
+  color: white;
+}
+.footer-form .subscribe {
+  background-color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+}
+.footer-form div {
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #2b2e3c;
+}
+.footer-copyright {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 50%;
+}
+.footer-copyright::after,
+.footer-copyright::before {
+  flex: 1;
+  content: "";
+  padding: 1px;
+  background-color: #888888;
+}
+/* footer end */
