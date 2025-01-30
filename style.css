@@ -30,7 +30,6 @@ html {
   background-color: white;
   border-radius: 5px;
 }
-
 .links a {
   display: inline-block;
   font-size: 16px;
@@ -53,7 +52,7 @@ html {
 /* navbar end */
 
 .header-info {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 70%;
   margin-inline: auto;
   text-align: center;
@@ -473,3 +472,102 @@ footer {
   background-color: #888888;
 }
 /* footer end */
+
+/* ------------------------------home page end------------------------------------- */
+
+.product-header {
+  background: url(./images/productBannnerGradient.png) no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.product-banner {
+  margin-top: 30px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.product-banner .left {
+  width: 48%;
+}
+.product-banner .right {
+  width: 48%;
+}
+.product-banner .right img {
+  width: 100%;
+  opacity: 0.8;
+  transition: 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.product-banner .right img:hover {
+  opacity: 1;
+}
+.product-banner .left h1 {
+  font-size: 56px;
+  line-height: 62px;
+}
+.product-banner .left p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+.product-banner .left a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.product-banner .left .btn {
+  border: 2px solid black;
+}
+.btn-white {
+  margin-left: 10px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  border: 2px solid #e0e4fc;
+}
+.header-logosImg img {
+  width: 100%;
+}
+/* product page header end */
+
+.product-section1 {
+  padding: 70px 0 20px;
+  background: url(./images/productBlur.png) no-repeat center;
+  background-size: cover;
+}
+.product-section-title {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+}
+.product-section1 .product-section-title {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+}
+.product-section1-boxes {
+  width: 95%;
+  margin: 30px auto;
+  padding: 50px;
+  border-radius: 67px;
+  background-color: #ffffffb0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.product-section1-boxes .box {
+  width: 32.3%;
+}
+.product-section1-boxes .box h3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.product-section-description {
+  line-height: 24px;
+  font-size: 16px;
+}
+/* section1 end */
