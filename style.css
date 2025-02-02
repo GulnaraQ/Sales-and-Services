@@ -850,3 +850,106 @@ main {
   align-items: center;
 }
 /* contact page end */
+
+.about-header {
+  padding: 30px 0 70px;
+  background: url(./images/aboutBlur.png) no-repeat;
+  background-size: cover;
+}
+.about-header .header-info {
+  width: 75%;
+}
+.about-header .header-description {
+  width: 90%;
+  margin-inline: auto;
+}
+.header-boxes {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-image-box {
+  width: 32%;
+}
+.header-image-box img {
+  width: 100%;
+  transition: 1s ease;
+}
+.header-image-box img:hover {
+  transform: scale(0.8);
+}
+.about-us {
+  width: 65%;
+  margin: 70px auto 0;
+  text-align: center;
+}
+
+/* about header end */
+
+.about-section1 {
+  background-color: #f0f2fe;
+  padding: 70px 50px;
+}
+.about-section1 .container {
+  display: flex;
+  justify-content: space-between;
+}
+.our-goals,
+.our-vision {
+  width: 48%;
+}
+.little-title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  background: linear-gradient(53.94deg, #373fff 15.02%, #3acaf8 82.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-section1 .section-description {
+  color: #6d6e76;
+}
+.about-section1 .section-title {
+  font-size: 45px;
+}
+/* about section1 end */
+
+.about-section2 {
+  padding: 70px 0 30px;
+}
+.about-section2-title {
+  text-align: center;
+}
+.about-section2 .boxes {
+  margin-top: 50px;
+  border-radius: 24px;
+  padding: 50px;
+  background-color: rgba(249, 240, 251, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 27px;
+  flex-wrap: wrap;
+  transition: 0.7s ease;
+}
+.about-section2 .boxes:hover {
+  background-color: #e6e6fa;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.about-section2 .box {
+  width: 31.5%;
+}
+.about-section2 .box {
+  > h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  > p {
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 87%;
+  }
+}
+/* section2 end */
