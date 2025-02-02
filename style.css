@@ -723,3 +723,42 @@ footer {
   background-image: linear-gradient(#d7e7f9 35%, #d5f4ec 70%);
 }
 /* header end */
+main {
+  padding: 70px 0;
+}
+.asked-questions {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f2fe;
+  border-radius: 24px;
+  padding: 30px;
+}
+.asked-questions .left {
+  width: 40%;
+}
+.asked-questions .right {
+  width: 55%;
+}
+.asked-questions .question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin: 20px 0;
+  transition: 0.5s ease;
+}
+.asked-questions .question:hover {
+  background-color: #f0fff0;
+}
+.asked-questions .question h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.asked-questions .question p {
+  width: 100%;
+  opacity: 87%;
+  text-align: justify;
+  line-height: 24px;
+}
