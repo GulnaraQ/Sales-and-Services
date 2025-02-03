@@ -1044,3 +1044,46 @@ main {
   opacity: 60%;
   color: rgba(29, 33, 48, 1);
 }
+/* post header end */
+
+.all-posts {
+  padding: 50px 0;
+}
+.all-posts .section-title {
+  text-align: center;
+}
+.posts {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.post {
+  width: 32%;
+  overflow: hidden;
+}
+.post-title {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 15px 0;
+}
+.post-description {
+  opacity: 87%;
+  line-height: 24px;
+  margin: 15px 0;
+}
+.post-footer-description {
+  font-weight: 500;
+  opacity: 60%;
+  margin: 15px 0;
+}
+.post img {
+  width: 100%;
+  transition: 1s ease;
+}
+.post img:hover {
+  transform: scale(1.1);
+}
+
+/* posts end */
